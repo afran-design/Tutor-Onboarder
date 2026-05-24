@@ -1139,7 +1139,7 @@ export function RefereeCards() {
         <div className="flex items-baseline gap-2">
           <h3 className="text-[13.5px] text-neutral-900 font-semibold">Referees</h3>
           <span className="text-[11.5px] text-neutral-400">
-            {referees.filter(r => r.status === "submitted").length} submitted by candidate
+                        2 submitted by candidate
           </span>
         </div>
       </div>
